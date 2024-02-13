@@ -106,12 +106,16 @@ nav li a:hover {
     font-family: 'Candara', sans-serif;
     font-weight: bold;
     text-align: center;
+    font-weight: bold;
+    font-size: large;
 }
 
 .note .content {
     font-family: 'Candara', sans-serif;
     font-weight: bold;
 }
+
+
 
 p {
     font-family: 'Candara', sans-serif;
