@@ -112,8 +112,9 @@ nav li a:hover {
     
 }
 
-
-
+.note >#note >.content {
+    display: none;
+}
 
 p {
     font-family: 'Candara', sans-serif;
