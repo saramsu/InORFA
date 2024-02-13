@@ -94,11 +94,6 @@ nav li a:hover {
     }
 }
 
-
-
-
-
-
 .note .date {
     border-top: 2px solid #FF5A5A;
     border-bottom: 2px solid #FF5A5A;
@@ -113,14 +108,11 @@ nav li a:hover {
 .note .content {
     font-family: 'Candara', sans-serif;
     font-weight: bold;
+    
 }
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d2796e42486831cd0fc0377e3ed6a57d4a50660a
 p {
     font-family: 'Candara', sans-serif;
     
@@ -153,6 +145,11 @@ button {
 }
 
 img {
-    max-width: 500px;
     max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+      
 }

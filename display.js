@@ -1,8 +1,8 @@
-function toggleNotes(noteId) {
-    var note = document.getElementById(noteId);
-    if (note.style.display === "none") {
-        note.style.display = "block";
+function toggleContent(contentId) {
+    var content = document.getElementById(contentId);
+    if (content.style.display === "none") {
+        content.style.display = "block";
     } else {
-        note.style.display = "none";
+        content.style.display = "none";
     }
 }
