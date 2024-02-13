@@ -1,9 +1,11 @@
-<<<<<<< HEAD
 body {
     background-color: #F2F2F2;
+   
 }
 p {
     font-family: 'Candara';
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 h1 {
@@ -145,152 +147,4 @@ button {
 img {
     max-width: 500px;
     max-height: 400px;
-=======
-body {
-    background-color: #F2F2F2;
-}
-p {
-    font-family: 'Candara';
-}
-
-h1 {
-    font-family: 'Candara', sans-serif;
-    text-align: center;
-    padding-top: 7%;
-}
-
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 1.1em; /* Reduce el tamaño de la fuente en pantallas pequeñas */
-    }
-}
-
-h2 {
-    font-family: 'Candara', sans-serif;
-    text-align: center;
-    font-size: 20px;
-}
-
-h1 {
-    text-align: center;
-}
-
-nav {
-    font-family: 'Candara';
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: transparent;
-    border-top: 2px solid #FF5A5A;
-    border-bottom: 2px solid #FF5A5A;
-    z-index: 100;
-    background-color: #F2F2F2;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #FF5A5A;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        width: 100%;
-        height: 7%;
-        position: fixed;
-        right: 0;
-        top: 1%;
-        background-color: #F2F2F2;
-        overflow: auto;
-        transition: right 0.5s ease;
-        font-family: 'Candara';
-        font-weight: bold;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        float: none;
-    }
-
-    nav li a {
-        font-size: 0.8em; /* Reduce el tamaño de la fuente en pantallas pequeñas */
-    }
-}
-
-
-
-
-
-
-.note .date {
-    border-top: 2px solid #FF5A5A;
-    border-bottom: 2px solid #FF5A5A;
-    color: #b1afaf;
-    font-family: 'Candara', sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-.note .content {
-    font-family: 'Candara', sans-serif;
-    font-weight: bold;
-}
-
-p {
-    font-family: 'Candara', sans-serif;
-    
-}
-
-button {
-    background-color: #FF5A5A; /* Color de fondo del botón */
-    color: #c0bfbf; /* Color del texto del botón */
-    border: none; /* Elimina el borde del botón */
-    text-align: center; /* Centra el texto horizontalmente */
-    display: block; /* Alinea los botones uno bajo el otro */
-    font-size: 16px; /* Tamaño del texto del botón */
-    margin: 5% auto; /* Espacio alrededor del botón */
-    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
-    border-radius: 50%; /* Hace que el botón sea redondo */
-    width: 100px; /* Ancho del botón */
-    height: 100px; /* Altura del botón */
-    line-height: 100px; /* Centra el texto verticalmente */
-    font-family: 'Candara', sans-serif; /* Fuente del texto del botón */
-    text-decoration: none; /* Elimina el subrayado del texto */
-}
-
-
-
-#button-programm, #button-tools, #button-notes {
-    text-decoration: none;
-    color: #e7e7e7;
-    font-family: 'Candara', sans-serif;
-    font-weight: bolder;
-}
-
-img {
-    max-width: 500px;
-    max-height: 400px;
->>>>>>> f48a483f806859db89ae13592fd54839a6a72182
 }
