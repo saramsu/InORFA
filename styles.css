@@ -95,14 +95,15 @@ nav li a:hover {
 }
 
 .note .date {
-    border-top: 2px solid #FF5A5A;
-    border-bottom: 2px solid #FF5A5A;
-    color: #b1afaf;
+    border-top: 3px solid #FF5A5A;
+    border-bottom: 3px solid #FF5A5A;
+    color: #ad6f6f;
     font-family: 'Candara', sans-serif;
     font-weight: bold;
     text-align: center;
     font-weight: bold;
     font-size: large;
+    padding: 1%;
 }
 
 .note .content {
