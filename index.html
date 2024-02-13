@@ -24,11 +24,13 @@
     <button id="button-tools"><a id="button-tools" href="#">Materiales</a></button>
   </section>
     <section class="notes" role="region" aria-labelledby="notes"></section>
-    <button id="notes"><a id="button-notes" href="#">Apuntes</a></button>
+        <button id="notes"><a id="button-notes" href="#">Apuntes</a></button>
         <section class="notes">
             <div class="note">
-              <div class="date">6 de febrero del 2024</div>
-             <p><strong>Temas:</strong> se presenta el programa del curso, la metodología se organizan las fechas de exámenes, de presentaciones, de talleres, 
+              <div class="date" onclick="toggleNotes('note1')">6 de febrero del 2024</div>
+             
+            <div id="note1" class="note">
+            <p><strong>Temas:</strong> se presenta el programa del curso, la metodología se organizan las fechas de exámenes, de presentaciones, de talleres, 
               se cuadran los grupos de exposición. 
               <br>
               <br>
@@ -213,13 +215,14 @@
               <br>
             </p>
               <div>
-              <a href="https://estomatologia2.files.wordpress.com/2016/09/anatomia-funcional-sistema-estomatognatico.pdf" Target='_blank'>Fuente</a>
-            </div>
+              
             </p>
                 <p class="content">Apunte 1</p>
             </div>
+          </div>
+
               <div class="note">
-                <div class="date">7 de febrero del 2024</div>
+                <div class="date" onclick="toggleNotes('note2')">7 de febrero del 2024</div>
                  <p class="content">Apunte 2</p>
                  <p><strong>1. Deifinición del sistema estomatognático:</strong></p>
                  <p>unidad morfo funcional constituida por el conjunto de estructuras esqueléticas, musculares, angiológica, nerviosas, glandulares y dentales. Organizadas alrededor de las articulaciones Occipitoatloidea, atloaxoidea y temporomandibular.</p>
@@ -404,19 +407,11 @@
 
           <div></div>
           
-
+          <script src="display.js"></script>
           </body>
 </html>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
 
   
 
